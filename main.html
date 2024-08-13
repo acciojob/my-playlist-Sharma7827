@@ -16,7 +16,7 @@
             
         }
         .song_playlist{
-            background-color: rgb(0, 0, 0, 0);
+            background-color: rgb(255, 255, 255);
             border: 2px solid black;
             border-radius: 5px;
             padding: 20px;
@@ -36,19 +36,26 @@
         .main{
             width: 70%;
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0);
+            background-color: rgb(255, 255, 255);
             border: 2px solid black;
             border-radius: 5px;
         }
 
         .player_one{
             width: 100%;
+			background-color: rgb(255, 255, 255);
 			border-radius:none;
         }
 
         video{
             width: 100%;
 
+        }
+
+		.player_two{
+            width: 100%;
+			background-color: rgb(255, 255, 255);
+			border-radius:none;
         }
 
         audio{
@@ -74,24 +81,25 @@
 
 	<h2>Now Playing...</h2>
 
-    <div class="main">
-        <div class="player_one">
-        
-            <video controls>
-                <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
-                
-            </video>
-
-            <h2>MP3 songs</h2>
-        </div>
-        
-        <div class="player_one">
+	<div class="player_one">
+        <video controls>
+            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
             
-            <audio controls>
-                <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mp3">
-                
-            </audio>
-        </div>
+        </video>
+
+        <h2>MP3 songs</h2>
+
+        <audio controls>
+            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mp3">
+            
+        </audio>
+        
+        
     </div>
+
+   
+       
+         
+    
 </body>
 </html>
